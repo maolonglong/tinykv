@@ -5,7 +5,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"tinykv"
+
+	"github.com/maolonglong/tinykv"
 )
 
 var db = map[string]string{

@@ -1,6 +1,6 @@
 package tinykv
 
-import "tinykv/internal/bytesconv"
+import "github.com/maolonglong/tinykv/internal/bytesconv"
 
 type ByteView struct {
 	b []byte

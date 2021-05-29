@@ -6,7 +6,8 @@ import (
 	"net/http"
 	"strings"
 	"sync"
-	"tinykv/pkg/consistenthash"
+
+	"github.com/maolonglong/tinykv/pkg/consistenthash"
 )
 
 const (

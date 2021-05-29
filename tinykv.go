@@ -4,7 +4,8 @@ import (
 	"errors"
 	"log"
 	"sync"
-	"tinykv/pkg/lru"
+
+	"github.com/maolonglong/tinykv/pkg/lru"
 )
 
 type Getter interface {
